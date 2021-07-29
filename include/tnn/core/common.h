@@ -135,6 +135,7 @@ typedef enum {
 } ModelType;
 
 using DimsVector = std::vector<int>;
+using DimsVectorFloat = std::vector<float>;
 
 //@brief Config used to create tnn instance, config
 // device type, network type and share memory mode.

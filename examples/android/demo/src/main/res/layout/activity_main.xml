@@ -24,6 +24,30 @@
             android:textSize="20sp" />
 
         <TextView
+          android:id="@+id/tv_test"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="100dp"
+          android:background="@drawable/button_bg"
+          android:text="推荐打分"
+          android:gravity="center"
+          android:textColor="#ff0000"
+          android:textSize="20sp" />
+
+        <TextView
+          android:id="@+id/tv_test2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="15dp"
+          android:background="@drawable/button_bg"
+          android:text="推荐重排列"
+          android:gravity="center"
+          android:textColor="#ff0000"
+          android:textSize="20sp" />
+
+        <TextView
             android:id="@+id/stream_detect_btn"
             android:layout_width="160dp"
             android:layout_height="wrap_content"
